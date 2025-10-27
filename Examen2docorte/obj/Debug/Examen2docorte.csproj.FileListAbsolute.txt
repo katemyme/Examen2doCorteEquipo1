@@ -1,0 +1,11 @@
+C:\Users\Alvaro Alcocer\OneDrive\Documentos\Examen\Examen2docorte\Examen2docorte\bin\Debug\Examen2docorte.exe.config
+C:\Users\Alvaro Alcocer\OneDrive\Documentos\Examen\Examen2docorte\Examen2docorte\bin\Debug\Examen2docorte.exe
+C:\Users\Alvaro Alcocer\OneDrive\Documentos\Examen\Examen2docorte\Examen2docorte\bin\Debug\Examen2docorte.pdb
+C:\Users\Alvaro Alcocer\OneDrive\Documentos\Examen\Examen2docorte\Examen2docorte\obj\Debug\Examen2docorte.csproj.AssemblyReference.cache
+C:\Users\Alvaro Alcocer\OneDrive\Documentos\Examen\Examen2docorte\Examen2docorte\obj\Debug\Examen2docorte.Form1.resources
+C:\Users\Alvaro Alcocer\OneDrive\Documentos\Examen\Examen2docorte\Examen2docorte\obj\Debug\Examen2docorte.Properties.Resources.resources
+C:\Users\Alvaro Alcocer\OneDrive\Documentos\Examen\Examen2docorte\Examen2docorte\obj\Debug\Examen2docorte.csproj.GenerateResource.cache
+C:\Users\Alvaro Alcocer\OneDrive\Documentos\Examen\Examen2docorte\Examen2docorte\obj\Debug\Examen2docorte.csproj.CoreCompileInputs.cache
+C:\Users\Alvaro Alcocer\OneDrive\Documentos\Examen\Examen2docorte\Examen2docorte\obj\Debug\Examen2docorte.exe
+C:\Users\Alvaro Alcocer\OneDrive\Documentos\Examen\Examen2docorte\Examen2docorte\obj\Debug\Examen2docorte.pdb
+C:\Users\Alvaro Alcocer\OneDrive\Documentos\Examen\Examen2docorte\Examen2docorte\obj\Debug\Examen2docorte.exe.config
