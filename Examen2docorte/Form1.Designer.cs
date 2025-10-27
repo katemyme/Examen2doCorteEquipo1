@@ -34,7 +34,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.helpProvider1 = new System.Windows.Forms.HelpProvider();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbEmergencia = new System.Windows.Forms.TextBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -84,12 +84,13 @@
             this.label4.TabIndex = 4;
             this.label4.Text = "Caso";
             // 
-            // textBox2
+            // tbEmergencia
             // 
-            this.textBox2.Location = new System.Drawing.Point(176, 55);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 5;
+            this.tbEmergencia.Location = new System.Drawing.Point(176, 55);
+            this.tbEmergencia.Name = "tbEmergencia";
+            this.tbEmergencia.Size = new System.Drawing.Size(100, 22);
+            this.tbEmergencia.TabIndex = 5;
+            this.tbEmergencia.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox2_KeyDown);
             // 
             // listBox1
             // 
@@ -126,6 +127,7 @@
             this.button2.TabIndex = 9;
             this.button2.Text = "Eliinar Paciente Emergencia";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
@@ -136,7 +138,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.tbEmergencia);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox1);
@@ -157,7 +159,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.HelpProvider helpProvider1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbEmergencia;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.Button button1;
