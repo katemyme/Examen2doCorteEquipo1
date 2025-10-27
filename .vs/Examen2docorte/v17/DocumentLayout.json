@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alvaro Alcocer\\OneDrive\\Documentos\\Examen\\Examen2docorte\\",
+  "WorkspaceRootPath": "C:\\Users\\Alvaro Alcocer\\OneDrive\\Desktop\\Nueva carpeta\\Examen2doCorteEquipo1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3595590B-5097-491D-93B3-0450E614AC4C}|Examen2docorte\\Examen2docorte.csproj|c:\\users\\alvaro alcocer\\onedrive\\documentos\\examen\\examen2docorte\\examen2docorte\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3595590B-5097-491D-93B3-0450E614AC4C}|Examen2docorte\\Examen2docorte.csproj|c:\\users\\alvaro alcocer\\onedrive\\desktop\\nueva carpeta\\examen2docorteequipo1\\examen2docorte\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3595590B-5097-491D-93B3-0450E614AC4C}|Examen2docorte\\Examen2docorte.csproj|solutionrelative:examen2docorte\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3595590B-5097-491D-93B3-0450E614AC4C}|Examen2docorte\\Examen2docorte.csproj|c:\\users\\alvaro alcocer\\onedrive\\documentos\\examen\\examen2docorte\\examen2docorte\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3595590B-5097-491D-93B3-0450E614AC4C}|Examen2docorte\\Examen2docorte.csproj|C:\\Users\\Alvaro Alcocer\\OneDrive\\Desktop\\Nueva carpeta\\Examen2doCorteEquipo1\\examen2docorte\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3595590B-5097-491D-93B3-0450E614AC4C}|Examen2docorte\\Examen2docorte.csproj|solutionrelative:examen2docorte\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -32,26 +32,25 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Alvaro Alcocer\\OneDrive\\Documentos\\Examen\\Examen2docorte\\Examen2docorte\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Alvaro Alcocer\\OneDrive\\Desktop\\Nueva carpeta\\Examen2doCorteEquipo1\\Examen2docorte\\Form1.cs",
               "RelativeDocumentMoniker": "Examen2docorte\\Form1.cs",
-              "ToolTip": "C:\\Users\\Alvaro Alcocer\\OneDrive\\Documentos\\Examen\\Examen2docorte\\Examen2docorte\\Form1.cs",
+              "ToolTip": "C:\\Users\\Alvaro Alcocer\\OneDrive\\Desktop\\Nueva carpeta\\Examen2doCorteEquipo1\\Examen2docorte\\Form1.cs",
               "RelativeToolTip": "Examen2docorte\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAArwEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T16:01:52.55Z",
+              "WhenOpened": "2025-10-27T15:48:45.861Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Alvaro Alcocer\\OneDrive\\Documentos\\Examen\\Examen2docorte\\Examen2docorte\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Alvaro Alcocer\\OneDrive\\Desktop\\Nueva carpeta\\Examen2doCorteEquipo1\\Examen2docorte\\Form1.cs",
               "RelativeDocumentMoniker": "Examen2docorte\\Form1.cs",
-              "ToolTip": "C:\\Users\\Alvaro Alcocer\\OneDrive\\Documentos\\Examen\\Examen2docorte\\Examen2docorte\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Examen2docorte\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\andre\\OneDrive\\Escritorio\\UAM\\ProgramacionEstructuradaG6\\Segundo Corte\\Examen2docorte\\Form1.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\andre\\OneDrive\\Escritorio\\UAM\\ProgramacionEstructuradaG6\\Segundo Corte\\Examen2docorte\\Form1.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T15:34:27.215Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-10-27T15:34:27.215Z"
             }
           ]
         }
