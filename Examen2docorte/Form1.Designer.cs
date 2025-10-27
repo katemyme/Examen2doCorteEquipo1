@@ -97,6 +97,7 @@
             this.tbCritico.Name = "tbCritico";
             this.tbCritico.Size = new System.Drawing.Size(76, 20);
             this.tbCritico.TabIndex = 5;
+            this.tbCritico.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbCritico_KeyDown);
             // 
             // lbNormal
             // 
@@ -136,6 +137,7 @@
             this.btnEliminarPacienteCritico.TabIndex = 9;
             this.btnEliminarPacienteCritico.Text = "Eliminar Paciente Emergencia";
             this.btnEliminarPacienteCritico.UseVisualStyleBackColor = true;
+            this.btnEliminarPacienteCritico.Click += new System.EventHandler(this.btnEliminarPacienteCritico_Click);
             // 
             // Form1
             // 
@@ -156,6 +158,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

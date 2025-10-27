@@ -13,6 +13,7 @@ namespace Examen2docorte
     public partial class Form1 : Form
     {
         Queue<string> Pacientes = new Queue<string>();
+        Stack<string> Pacienteurgente = new Stack<string>();
         public Form1()
         {
             InitializeComponent();
@@ -49,5 +50,49 @@ namespace Examen2docorte
                 lbNormal.Items.Add(paciente);
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+
+        }
+       
+        private void MostrarPila()
+        {
+            lbCritico.Items.Clear();
+            foreach (string paciente in Pacienteurgente)
+            {
+                lbCritico.Items.Add(paciente);
+
+            }
+            tbCritico.Clear();
+        }
+
+        private void tbCritico_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                Pacienteurgente.Push(tbCritico.Text);
+                tbCritico.Clear();
+                tbCritico.Focus();
+                MostrarPila();
+            }
+        }
+
+        private void btnEliminarPacienteCritico_Click(object sender, EventArgs e)
+        {
+
+            if (Pacienteurgente.Count > 0)
+            {
+                Pacienteurgente.Pop();
+                MostrarPila();
+            }
+            else
+            {
+                MessageBox.Show("No hay pacientes en espera.");
+            }
+        }
     }
+
 }
+
