@@ -17,12 +17,6 @@ namespace Examen2docorte
         {
             InitializeComponent();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             if (Pacientes.Count > 0)
@@ -35,26 +29,18 @@ namespace Examen2docorte
             {
                 MessageBox.Show("No hay pacientes en espera.");
             }
-
         }
-
         private void tbNormal_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
+                e.SuppressKeyPress = true;
                 Pacientes.Enqueue(tbNormal.Text);
                 tbNormal.Clear();
                 tbNormal.Focus();
                 MostrarPacientes();
             }
-
         }
-
-        private void lbNormal_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            
-        }
-
         private void MostrarPacientes()
         {
             lbNormal.Items.Clear();

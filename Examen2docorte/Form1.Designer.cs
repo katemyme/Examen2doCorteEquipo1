@@ -54,7 +54,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(104, 7);
+            this.label2.Location = new System.Drawing.Point(150, 7);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(118, 13);
@@ -63,7 +63,7 @@
             // 
             // tbNormal
             // 
-            this.tbNormal.Location = new System.Drawing.Point(10, 45);
+            this.tbNormal.Location = new System.Drawing.Point(30, 45);
             this.tbNormal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbNormal.Name = "tbNormal";
             this.tbNormal.Size = new System.Drawing.Size(76, 20);
@@ -73,7 +73,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(27, 29);
+            this.label3.Location = new System.Drawing.Point(40, 29);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(31, 13);
@@ -92,7 +92,7 @@
             // 
             // tbCritico
             // 
-            this.tbCritico.Location = new System.Drawing.Point(132, 45);
+            this.tbCritico.Location = new System.Drawing.Point(166, 44);
             this.tbCritico.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbCritico.Name = "tbCritico";
             this.tbCritico.Size = new System.Drawing.Size(76, 20);
@@ -101,48 +101,47 @@
             // lbNormal
             // 
             this.lbNormal.FormattingEnabled = true;
-            this.lbNormal.Location = new System.Drawing.Point(10, 109);
+            this.lbNormal.Location = new System.Drawing.Point(30, 109);
             this.lbNormal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lbNormal.Name = "lbNormal";
-            this.lbNormal.Size = new System.Drawing.Size(91, 199);
+            this.lbNormal.Size = new System.Drawing.Size(91, 238);
             this.lbNormal.TabIndex = 6;
-            this.lbNormal.SelectedIndexChanged += new System.EventHandler(this.lbNormal_SelectedIndexChanged);
             // 
             // lbCritico
             // 
             this.lbCritico.FormattingEnabled = true;
-            this.lbCritico.Location = new System.Drawing.Point(142, 109);
+            this.lbCritico.Location = new System.Drawing.Point(166, 109);
             this.lbCritico.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lbCritico.Name = "lbCritico";
-            this.lbCritico.Size = new System.Drawing.Size(91, 199);
+            this.lbCritico.Size = new System.Drawing.Size(91, 238);
             this.lbCritico.TabIndex = 7;
             // 
             // btnEliminarPacienteNormal
             // 
-            this.btnEliminarPacienteNormal.Location = new System.Drawing.Point(-7, 67);
+            this.btnEliminarPacienteNormal.Location = new System.Drawing.Point(10, 69);
             this.btnEliminarPacienteNormal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEliminarPacienteNormal.Name = "btnEliminarPacienteNormal";
-            this.btnEliminarPacienteNormal.Size = new System.Drawing.Size(119, 19);
+            this.btnEliminarPacienteNormal.Size = new System.Drawing.Size(119, 36);
             this.btnEliminarPacienteNormal.TabIndex = 8;
-            this.btnEliminarPacienteNormal.Text = "Eliinar Paciente Comun";
+            this.btnEliminarPacienteNormal.Text = "Eliminar Paciente Comun";
             this.btnEliminarPacienteNormal.UseVisualStyleBackColor = true;
             this.btnEliminarPacienteNormal.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnEliminarPacienteCritico
             // 
-            this.btnEliminarPacienteCritico.Location = new System.Drawing.Point(132, 67);
+            this.btnEliminarPacienteCritico.Location = new System.Drawing.Point(153, 69);
             this.btnEliminarPacienteCritico.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEliminarPacienteCritico.Name = "btnEliminarPacienteCritico";
-            this.btnEliminarPacienteCritico.Size = new System.Drawing.Size(145, 19);
+            this.btnEliminarPacienteCritico.Size = new System.Drawing.Size(115, 36);
             this.btnEliminarPacienteCritico.TabIndex = 9;
-            this.btnEliminarPacienteCritico.Text = "Eliinar Paciente Emergencia";
+            this.btnEliminarPacienteCritico.Text = "Eliminar Paciente Emergencia";
             this.btnEliminarPacienteCritico.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(363, 366);
             this.Controls.Add(this.btnEliminarPacienteCritico);
             this.Controls.Add(this.btnEliminarPacienteNormal);
             this.Controls.Add(this.lbCritico);
@@ -155,8 +154,8 @@
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
